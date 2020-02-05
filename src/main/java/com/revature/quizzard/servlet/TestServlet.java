@@ -14,6 +14,6 @@ public class TestServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
-        res.getWriter().write("It worked!");
+        res.getWriter().write("It worked! Deployment Successful!");
     }
 }
